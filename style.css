@@ -1,0 +1,336 @@
+body {
+    width: 100vw;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.page {
+    width: 1300px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__company-name {
+    width: 125px;
+    height: 15px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 112%;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+
+    color: #B4387A;
+}
+
+.header__nab-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 500px;
+}
+
+.header__nab-bar__link {
+    width: 88px;
+    height: 18px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 112%;
+    /* identical to box height, or 18px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    color: #1D1929;
+}
+
+.header__button {
+    /* _Button Medium */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    gap: 8px;
+    
+    cursor: pointer;
+
+    width: 128px;
+    height: 50px;
+    
+    background: #003CFF;
+    border-radius: 16px;
+    border:none;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 112%;
+    /* identical to box height, or 18px */
+
+    letter-spacing: 0.02em;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: white;
+}
+
+.choose-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    width: 100%;
+    margin-top: 140px;
+}
+
+.choose-card__text-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 622px;
+    height: 226px;
+}
+
+.choose-card__text-block__text {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 50px;
+    /* or 104% */
+    color: #1C1C1E;
+    margin:0;
+}
+
+.choose-card__text-block__button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    gap: 8px;
+    cursor: pointer;
+
+    width: 160px;
+    height: 50px;
+
+    background: #003CFF;
+    border-radius: 16px;
+    border:none;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 112%;
+    /* identical to box height, or 18px */
+
+    letter-spacing: 0.02em;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: white;
+}
+
+.choose-card__cards {
+    display: grid;
+    grid-template-columns:repeat(2, 260px);
+    height: 314.78px;
+}
+
+.choose-card__cards__card { 
+    width: 252.04px;
+    height: 150px;
+}
+
+.feature-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-top: 112px;
+}
+
+.feature-block__image {
+    width: 508.12px;
+    height: 414.71px;
+}
+
+.feature-block__text-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.feature-block__text-block__title {
+    width: 662px;
+    height: 50px;
+
+    margin-bottom: 20px;
+    /* margin-top: 0px; */
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    /* identical to box height, or 143% */
+}
+
+.feature-block__text-block__description {
+    width: 717px;
+    height: 30px;
+
+    margin-bottom: 25px;
+    margin-top: 0px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    color: #4F5665;
+}
+
+.feature-block__text-block__list__elem {
+    /* width: 180px; */
+    width: 220px;
+    height: 30px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    /* identical to box height, or 214% */
+    color: #4F5665;
+}
+
+.exchange-rate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px;
+    margin-top: 49px;
+    box-sizing: border-box;
+
+    height: 366px;
+
+    background: linear-gradient(358.2deg, rgba(178, 178, 178, 0.8) 8.06%, rgba(178, 178, 178, 0) 67.93%), rgba(244, 244, 244, 0.9);
+    mix-blend-mode: normal;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.08), 0px 2px 4px rgba(187, 187, 187, 0.2);
+    border-radius: 28px;
+}
+
+.exchange-rate__title {
+    width: 456px;
+    height: 47px;
+
+    margin-bottom: 24px;
+    margin-top: 0px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 50px;
+    /* or 167% */
+    color: #1C1C1E;
+}
+
+.exchange-rate__currency {
+    width: 84px;
+    height: 50px;
+
+    margin-bottom: 32px;
+    margin-top: 0px;
+    
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 50px;
+    /* identical to box height, or 250% */
+    color: #000000;
+}
+
+.exchange-rate__update {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    height: 100%;
+}
+
+.exchange-rate__rates {
+    display: grid;
+    grid-template-columns:repeat(3, 130px);
+}
+
+.exchange-rate__rates__text {
+    width: 47px;
+    height: 22px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 112%;
+    /* or 22px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+
+    color: #808080;
+
+    mix-blend-mode: normal;
+}
+
+
+
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* height: calc(100% - 100px); */
+}
+
+ul {
+    /* list-style-image: url('materials/Vector1.png'); */
+    list-style: none;   
+    padding-inline-start: 0px;
+    margin: 0;
+  }
+
+li {
+    list-style: none; /* Убираем исходные маркеры */
+    background: url('materials/Vector1.png') no-repeat 0 4px; /* Параметры фона */
+    padding-left: calc(20px + 18px); /* Смещаем текст вправо */ 
+    padding-bottom: 12px;
+
+}
+
+
